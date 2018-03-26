@@ -47,12 +47,10 @@ class TkinterGUI:
                                                                   ("html files","*.html"),
                                                                   ("all files","*.*"))
                                                    )
-        #print self.files
 
         # Store file name(s) in a readable string
         files_string = ''
         for f in self.files:
-            print f
             files_string += str(f) + ', '
         files_string = files_string[:-2]
 
